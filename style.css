@@ -700,3 +700,8 @@ footer span a:hover{
         opacity: 1;
     }
 }
+#msg{
+     color: green;
+    font-size: 20px;
+    display:block;
+}
