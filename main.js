@@ -6,7 +6,7 @@ form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
-            msg.textContent = "Thank you for your subscription";
+            msg.textContent = "Thank you for Message!";
             setTimeout(() => {
                 msg.textContent = "";
             }, 5000);
